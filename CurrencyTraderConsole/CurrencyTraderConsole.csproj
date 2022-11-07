@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CurrencyTrader.AdoNet\CurrencyTrader.AdoNet.csproj" />
+    <ProjectReference Include="..\CurrencyTrader.Contracts\CurrencyTrader.Contracts.csproj" />
+    <ProjectReference Include="..\CurrencyTrader.Providers\CurrencyTrader.Providers.csproj" />
+    <ProjectReference Include="..\CurrencyTrader\CurrencyTrader.csproj" />
+  </ItemGroup>
+
+</Project>

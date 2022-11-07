@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTraderWeb", "CurrencyTraderWeb\CurrencyTraderWeb.csproj", "{E757A9B4-7CB8-4C8E-8A54-5EE6D5B9FF4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTrader", "CurrencyTrader\CurrencyTrader.csproj", "{FA684067-7B59-4FB9-8143-D08633423A62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTrader.AdoNet", "CurrencyTrader.AdoNet\CurrencyTrader.AdoNet.csproj", "{0A43A9BC-FD63-4CA5-A865-E4F70AC7D8CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTrader.Contracts", "CurrencyTrader.Contracts\CurrencyTrader.Contracts.csproj", "{7D2AAEFB-9C9D-44A9-BB0E-30ED4C66C5D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTraderConsole", "CurrencyTraderConsole\CurrencyTraderConsole.csproj", "{B4D6732D-8BEA-442C-9AB8-3A135892F689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTrader.Providers", "CurrencyTrader.Providers\CurrencyTrader.Providers.csproj", "{08D2300B-D7C3-4E18-8BAB-BADBF740A815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyTraderTests", "CurrencyTraderTests\CurrencyTraderTests.csproj", "{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E757A9B4-7CB8-4C8E-8A54-5EE6D5B9FF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E757A9B4-7CB8-4C8E-8A54-5EE6D5B9FF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E757A9B4-7CB8-4C8E-8A54-5EE6D5B9FF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E757A9B4-7CB8-4C8E-8A54-5EE6D5B9FF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA684067-7B59-4FB9-8143-D08633423A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA684067-7B59-4FB9-8143-D08633423A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA684067-7B59-4FB9-8143-D08633423A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA684067-7B59-4FB9-8143-D08633423A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A43A9BC-FD63-4CA5-A865-E4F70AC7D8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A43A9BC-FD63-4CA5-A865-E4F70AC7D8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A43A9BC-FD63-4CA5-A865-E4F70AC7D8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A43A9BC-FD63-4CA5-A865-E4F70AC7D8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2AAEFB-9C9D-44A9-BB0E-30ED4C66C5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2AAEFB-9C9D-44A9-BB0E-30ED4C66C5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2AAEFB-9C9D-44A9-BB0E-30ED4C66C5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2AAEFB-9C9D-44A9-BB0E-30ED4C66C5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D6732D-8BEA-442C-9AB8-3A135892F689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D6732D-8BEA-442C-9AB8-3A135892F689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D6732D-8BEA-442C-9AB8-3A135892F689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D6732D-8BEA-442C-9AB8-3A135892F689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D2300B-D7C3-4E18-8BAB-BADBF740A815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D2300B-D7C3-4E18-8BAB-BADBF740A815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D2300B-D7C3-4E18-8BAB-BADBF740A815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D2300B-D7C3-4E18-8BAB-BADBF740A815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EF56462-2752-4947-B4BE-BC3481BAD850}
+	EndGlobalSection
+EndGlobal
