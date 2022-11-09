@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTraderConsole", "Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTrader.Providers", "CurrencyTrader.Providers\CurrencyTrader.Providers.csproj", "{08D2300B-D7C3-4E18-8BAB-BADBF740A815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyTraderTests", "CurrencyTraderTests\CurrencyTraderTests.csproj", "{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTraderTests", "CurrencyTraderTests\CurrencyTraderTests.csproj", "{25F4A9B5-ED0B-4C4D-BCDF-367A67AEB4C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

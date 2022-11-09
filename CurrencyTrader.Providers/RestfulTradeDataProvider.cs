@@ -35,7 +35,6 @@ namespace CurrencyTrader.Providers
             {
                 var task = Task.Run(() => GetProductAsync());
                 task.Wait();
-
                 List<string> tradeList = task.Result;
                 return tradeList;
             }
