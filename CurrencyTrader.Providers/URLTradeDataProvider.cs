@@ -16,7 +16,7 @@ namespace CurrencyTrader.Providers
 
         public IEnumerable<string> GetTradeData()
         {
-            var tradeData = new List<string>();
+            List<string> tradeData = new List<string>();
             logger.LogInfo("Reading trade file from URL: " + url);
             var client = new WebClient();
             using (var stream = client.OpenRead(url))
@@ -28,7 +28,8 @@ namespace CurrencyTrader.Providers
                     tradeData.Add(line);
                 }
             }
-            return tradeData;
+            IEnumerable<string> readonlyTradeData = tradeData;
+            return readonlyTradeData;
 
         }
 

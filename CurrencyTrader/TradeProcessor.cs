@@ -1,5 +1,6 @@
 ﻿
 using CurrencyTrader.Contracts;
+using System.Collections.Generic;
 
 namespace CurrencyTrader
 {
@@ -14,8 +15,8 @@ namespace CurrencyTrader
 
         public void ProcessTrades()
         {
-            var lines = tradeDataProvider.GetTradeData();
-            var trades = tradeParser.ParseTrades(lines);
+            IEnumerable<string> lines = tradeDataProvider.GetTradeData();
+            IEnumerable<TradeRecord> trades = tradeParser.ParseTrades(lines);
             tradeStorage.StoreTrades(trades);
         }
 

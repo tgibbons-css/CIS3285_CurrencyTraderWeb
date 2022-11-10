@@ -15,7 +15,7 @@ namespace CurrencyTrader.Providers
 
         public IEnumerable<string> GetTradeData()
         {
-            var tradeData = new List<string>();
+            List<string> tradeData = new List<string>();
             logger.LogInfo("Reading trades from file stream.");
             using (var reader = new StreamReader(stream))
             {
@@ -25,7 +25,8 @@ namespace CurrencyTrader.Providers
                     tradeData.Add(line);
                 }
             }
-            return tradeData;
+            IEnumerable<string> readonlyTradeData = tradeData;
+            return readonlyTradeData;
         }
 
         private readonly Stream stream;

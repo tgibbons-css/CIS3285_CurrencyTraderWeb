@@ -15,7 +15,7 @@ namespace CurrencyTrader.Providers
         }
 
         // This method requires NuGet packages System.Net.Http.Formatting.Extension and Newtonsoft.Json
-        async Task<List<string>> GetProductAsync()
+        async Task<IEnumerable<string>> GetProductAsync()
         {
             logger.LogInfo("Connecting the Restful server using HTTP at url: "+url);
             List<string> tradesString = null;
@@ -35,14 +35,14 @@ namespace CurrencyTrader.Providers
             {
                 var task = Task.Run(() => GetProductAsync());
                 task.Wait();
-                List<string> tradeList = task.Result;
+                IEnumerable<string> tradeList = task.Result;
                 return tradeList;
             }
             catch (Exception e)
             {
                 logger.LogInfo("Exception connecting to the Restful API: " + e.Message);
                 logger.LogInfo("Could not read trades from "+ url.ToString());
-                List<string> emptyList = new List<string>();
+                IEnumerable<string> emptyList = new List<string>();
                 return emptyList;
             }
 
